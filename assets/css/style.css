@@ -1444,12 +1444,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     -webkit-line-clamp: 2;
   }
 
-  .tamu-link {
-    color: var(--orange-yellow-crayola); /* Use the defined CSS variable */
-    text-decoration: none; /* Remove underline if desired */
-    display: inline;
-  }
-
   /* testimonials modal */
 
   .modal-container { padding: 20px; }
