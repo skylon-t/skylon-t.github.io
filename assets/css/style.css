@@ -354,6 +354,11 @@ main {
   border-radius: 8px;
 }
 
+.title-wrapper {
+  display: flex;
+  gap: 10px;  /* This provides space between the two .title elements */
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
@@ -1437,6 +1442,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .testimonials-text {
     line-clamp: 2;
     -webkit-line-clamp: 2;
+  }
+
+  .tamu-link {
+    color: var(--orange-yellow-crayola); /* Use the defined CSS variable */
+    text-decoration: none; /* Remove underline if desired */
+    display: inline;
   }
 
   /* testimonials modal */
